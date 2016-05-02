@@ -1,0 +1,126 @@
+/*------------------plots----------------------*/
+#skill_plot{
+    width:100%;
+    height:65%;
+    top:10%;
+    margin:auto;
+    position:absolute;
+    right: 0%;
+    margin-top:50px;
+}
+
+#attribute_plot{
+
+    width:100%;
+    height:65%;
+    top:10%;
+    margin:auto;
+    position:absolute;
+    right: 0%;
+    margin-top:50px;
+}
+/*------------------axis----------------------*/
+.multAxis{
+  font-family: 'Helvetica Neue';
+  font-size:.8em;
+  font-weight:200;
+  fill:rgb(75,75,75);
+  stroke:none;
+}
+
+.multAxis .domain{
+    fill:none
+}
+
+/*-------------------tooltip-------------------------*/
+
+.multSvg{
+  float:left;
+  position:relative;
+  fill:none;
+}
+
+.multText{
+  font-family: 'HelveticaNeue-Light';  font-size:14px; line-height: 21px; text-align:left;
+  fill:rgb(75,75,75);
+  stroke:none;
+}
+
+.custom-tooltip{
+    position:absolute;
+    background:rgba(234,234,234,.9);
+    line-height:75%;
+    color:black;
+    z-index:2000;
+ }
+.skill-tooltip{
+    position:absolute;
+    background:rgba(234,234,234,.9);
+    line-height:75%;
+    color:black;
+    z-index:2000;
+ }
+ .hide{
+  display:none;
+ }
+
+ .hover{
+  opacity:1;
+  stroke:black;
+  font-weight:700;
+}
+
+.tooltip_text{
+
+ font-family: 'HelveticaNeue-Light'; 
+ font-size:12px;
+ line-height:16px;
+
+ margin-left:10pt;
+ margin-top:5pt;
+ margin-right:10pt;
+}
+
+.tooltip_percent_GRAD{
+
+  fill:rgb(75,75,75);
+  font-weight: bold;
+}
+
+.tooltip_percent_NEU{
+  fill:rgb(231,108,100);
+  font-weight: bold;
+}
+
+#attribute_label{
+  font-family:'Helvetica Neue';
+  font size:1em;
+  font-weight:bold;
+}
+
+.tooltip_text_NEU2{
+  fill:rgb(45,45,45);
+  font-size:12px;
+}
+
+.tooltip_text_GRAD2{
+  fill:rgb(45,45,45);
+  font-size:12px;
+}
+
+.Neu-grads-line{
+  stroke:none;
+  stroke-width:2px;
+}
+
+.Grads-line{
+  stroke:none;
+  stroke-width:2px;
+  fill:none;
+}
+
+.remainder{
+  fill:rgba(160,160,160,.6);
+}
+
+

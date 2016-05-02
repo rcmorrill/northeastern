@@ -1,0 +1,80 @@
+
+.tick line{
+  stroke:#000;
+  opacity:0;
+  stroke-width:.15px;
+}
+
+.x.axis path{
+    stroke:#000;
+    stroke-weight:.25px; 
+    opacity:0;
+}
+.y.axis path{
+    stroke:#000;
+    stroke-weight:.25px; 
+    opacity:0;
+   font-family:; 'HelveticaNeue-Medium', 'Lato-Reg';  font-size:14px; line-height: 21px; text-align:left;
+
+}
+
+.axis path { 
+  fill:none; stroke:black;
+}
+
+.axis text{
+	font-family: 'HelveticaNeue-Light', 'Lato-Reg';  font-size:14px; line-height: 21px; text-align:left;
+}
+
+
+.anchor{
+  font-family: 'Helvetica Neue';
+  font-size:.8em;
+  font-weight:200;
+  fill:rgb(75,75,75);
+  stroke:none;
+}
+
+
+
+.layer{
+  z-index:-50;
+  color:black;
+  opacity:.7;
+} 
+
+
+.Neu-grads{
+  fill:#e76c64;
+  opacity:.6;
+}
+
+.Grads{
+  fill:#7a7a7a;
+  opacity:.4;
+}
+
+
+
+
+.legend{
+   font-family: 'HelveticaNeue-Medium', 'Lato-Reg';  font-size:14px; line-height: 21px; text-align:left;
+}
+
+.transparent{
+  opacity:0;
+}
+
+
+
+#three{
+
+    margin-top:0px;
+    width: 70%;
+    height: 90%;
+    opacity:1; 
+    margin-right:40%;
+    margin-left:45%;
+    z-index:1000;
+
+}

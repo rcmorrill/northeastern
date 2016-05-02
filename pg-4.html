@@ -1,0 +1,56 @@
+<!doctype HTML>
+<html>
+	<head>
+		<title></title>
+		<meta charset="utf-8">
+    	<meta name="viewport" content="width=device-width, initial-scale=1">
+    	<link href="lib/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet"/>
+    	<link href='https://fonts.googleapis.com/css?family=Roboto+Condensed:400,700' rel='stylesheet' type='text/css'>
+    	<link href="css/fonts.css" rel="stylesheet"/>
+    	<link href="css/style.css" rel="stylesheet"/>
+    	<link href="css/plots.css" rel="stylesheet"/>
+    	<link href="preparedness/preparedness.css" rel="stylesheet"/>
+   
+	</head>
+	<body>
+
+ <div class="navbar_container">
+
+		  <ul class = "navbar">
+			<li><a href = "pg-3.html" class="trigger" id="back-special"><img src="images/back.png"/></a></li> <!--  back 3-->
+			<li><a href = "pg-1.html" class="btn" id="btn-2"><img src="images/circle.png"/></a></li> 
+			<li><a href = "pg-2.html" class="btn" id="btn-3"><img src="images/circle.png"/></a></li> 
+			<li><a href = "pg-3.html" class="btn" id="btn-4"><img src="images/circle.png"/></a></li>
+			<li><a href = "pg-4.html" class="btn myactive" id="btn-5"><img src="images/circle.png"/></a></li>  <!-- pg-4 -->
+			<li><a href = "#" class="btn" id="btn-6-special"><img src="images/circle.png"/></a></li>
+			<li><a href = "pg-6.html" class="btn" id="btn-7"><img src="images/circle.png"/></a></li>
+			<li><a href = "pg-7.html" class="btn" id="btn-8"><img src="images/circle.png"/></a></li>
+			<li><a href = "#" class="trigger" id="front-special"><img src="images/forward.png"/></a></li> <!-- front special -->
+		</ul>
+</div>
+
+		<div class="pages">
+				<section class="page" id="pg-4">
+					<div class="left">
+						<h3 class="text-1">First, we asked employers to rate the preparedness of recent graduates working at their companies.</h3>
+						<h3 class="text-2 hide">Then we asked employers to rate <strong class="color">Northeastern graduates</strong> working at their companies.</br></br>The score improved significantly.</h3>
+						</br>
+						</br>
+						<h3 class="text-1"><strong>64%</strong> rate college graduates either very or highly prepared.</h3>
+						<h3 class="text-2 hide"><strong class='color'>86%</strong> rate Northeastern graduates either very or highly prepared.</h3>
+
+					</div>
+					
+					<div class="prep_plot" id="prep_plot"></div>
+				</section>
+		</div> <!-- pages end -->
+
+	</body>
+
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.6/d3.min.js" charset="utf-8"></script>
+	<script src="lib/jquery-1.11.1.min.js"></script>
+	<script src="lib/queue.min.js"></script>
+	<script src="preparedness/prep_plot.js"></script>
+
+
+</html>

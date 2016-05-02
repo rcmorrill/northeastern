@@ -1,0 +1,55 @@
+
+#us_map{ 
+    width:75%;
+    left:32%;
+    height:100%; 
+    position:relative; 
+    float:left;
+}
+
+
+#treemap{ 
+    width:100%;
+    left:0%;
+    height:50%; 
+    position:absolute; 
+    float:right;
+}
+
+
+
+
+.state_path{ fill:none; stroke:#e9e9e9; }
+
+
+.land{ fill:#e9e9e9; stroke:none; }
+
+.map_circles{ fill:#66a2a6; opacity:.3;}
+
+.node div {
+  padding: 6px 4%;
+  line-height: 0.95;
+}
+
+.node {
+  font-family: 'HelveticaNeue-Light';  font-size:14px; line-height: 21px; text-align:left;
+  margin:auto;
+  border: solid 1px white;
+  line-height: 12px;
+  overflow: hidden;
+  position: absolute;
+  text-indent: 2px;
+  background:none;
+}
+
+.treetip{
+
+  padding: 8px;
+  width:250px;
+  background:#fff;
+  opacity:.8;
+  position: absolute;
+  z-index:50000;
+  visibility:hidden;
+
+}

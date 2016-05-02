@@ -1,0 +1,51 @@
+h1{ font-family:'HelveticaNeue-Medium','Helvetica Neue', Helvetica, Arial, sans-serif;
+	font-size:80px; 
+	line-height: 88px; 
+	color:white; 
+
+
+
+}
+
+h2{ font-family: 'HelveticaNeue-Light','Helvetica Neue', Helvetica, Arial, sans-serif; 
+	font-style: normal; 
+	font-size:40px; 
+	line-height: 42px; }
+
+h3{ font-family: 'HelveticaNeue-thin','Helvetica Neue', Helvetica, Arial, sans-serif; 
+	font-style: normal; 
+	font-size:23px; 
+	line-height: 28px; }
+
+
+p{  font-family: 'HelveticaNeue-Light','Helvetica Neue', Helvetica, Arial, sans-serif;   
+	font-size:14px; 
+	line-height: 21px; 
+	text-align:left; }
+
+.serif{ font-family: Baskerville, 'Baskerville Old Face', 'Hoefler Text', Garamond, 'Times New Roman', serif;}
+
+span br{ line-height:1em; }
+
+strong{ font-family: 'HelveticaNeue-Medium','Helvetica Neue', Helvetica, Arial, sans-serif; 
+ font-weight: normal;}
+
+ul li{ display:inline-block; padding:none;}
+
+.red{ color:#cb0000; fill:#cb0000; }
+.grey{ color:#989a9b; }
+.teal{ color:rgba(102,162,166,1);}
+.light-teal{ color:rgba(173,192,180,1);}
+.light-teal-text{ color:rgba(142,163,146,1);}
+
+
+
+.color{
+	color:rgb(231,108,100);
+}
+
+
+    .range(["rgba(173,192,180,1)","rgba(0,167,167,0)"]);
+
+var color2 = d3.scale.ordinal().domain([0,1])
+    .range(["rgba(102,162,166,1)

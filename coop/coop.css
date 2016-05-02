@@ -1,0 +1,17 @@
+#coop{
+
+    margin-top:0px;
+    width: 45%;
+    height: 90%;
+    opacity:1; 
+    margin-right:10%;
+    margin-left:55%;
+    z-index:1000;
+
+
+}
+
+.pie_label{
+  font-size:1em;
+  font-weight:bold;
+}

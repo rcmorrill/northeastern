@@ -1,0 +1,60 @@
+<!doctype HTML>
+<html>
+	<head>
+		<title></title>
+		<meta charset="utf-8">
+    	<meta name="viewport" content="width=device-width, initial-scale=1">
+    	<link href="lib/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet"/>
+    	<link href='https://fonts.googleapis.com/css?family=Roboto+Condensed:400,700' rel='stylesheet' type='text/css'>
+    	<link href="css/fonts.css" rel="stylesheet"/>
+    	<link href="css/style.css" rel="stylesheet"/>
+    	<link href="css/plots.css" rel="stylesheet"/>
+    	<link href="multiples/multi.css" rel="stylesheet"/>
+   
+	</head>
+	<body>
+ <div class="navbar_container">
+
+		  <ul class = "navbar">
+			<li><a href = "pg-5.html" class="trigger" id="a"><img src="images/back.png"/></a></li> <!--  back 4-->
+			<li><a href = "pg-1.html" class="btn" id="btn-2"><img src="images/circle.png"/></a></li> 
+			<li><a href = "pg-2.html" class="btn" id="btn-3"><img src="images/circle.png"/></a></li> 
+			<li><a href = "pg-3.html" class="btn" id="btn-4"><img src="images/circle.png"/></a></li>
+			<li><a href = "pg-4.html" class="btn" id="btn-5"><img src="images/circle.png"/></a></li>  <!-- pg-4 -->
+			<li><a href = "pg-5.html" class="btn" id="btn-6"><img src="images/circle.png"/></a></li>
+			<li><a href = "pg-6.html" class="btn myactive" id="btn-7"><img src="images/circle.png"/></a></li>
+			<li><a href = "pg-7.html" class="btn" id="btn-8"><img src="images/circle.png"/></a></li>
+			<li><a href = "pg-7.html" class="trigger" id="b"><img src="images/forward.png"/></a></li> <!-- front special -->
+		</ul>
+</div>
+
+
+
+		<div class="pages">
+				
+			<section class="page" id="pg-6">
+				
+					<div class="leftlong">
+						<h3>Employers also identified a list of <strong>skills</strong> Northeastern graduates expressed better than others.</h3>
+				</div>
+				<div class="plots" id="skill_plot">
+					<div class="skill-tooltip hide">
+						<p class="tooltip_text desc"></p>
+						<p class="tooltip_text title"></p>
+						<div class="NEU_rect"></div>
+						<div class="GEN_rect"></div>
+		    		</div>
+				</div>
+
+			</section>
+		</div> <!-- pages end -->
+
+	</body>
+
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.6/d3.min.js" charset="utf-8"></script>
+	<script src="lib/jquery-1.11.1.min.js"></script>
+	<script src="lib/queue.min.js"></script>
+	<script src="multiples/multi_plot.js"></script>
+
+
+</html>

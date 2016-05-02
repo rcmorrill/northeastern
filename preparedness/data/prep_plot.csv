@@ -1,0 +1,6 @@
+label,NEU,GRADS,text
+1,0,0.006,Not at all
+2,0.023,0.054,Minimally
+3,0.1157,0.298,Somewhat
+4,0.454,0.403,Very
+5,0.4065,0.239,Highly

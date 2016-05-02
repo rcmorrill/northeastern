@@ -1,0 +1,55 @@
+question,label,NEU,GRADS,type
+Creativity,1,1,1.3,attribute
+Creativity,2,0,3.1,attribute
+Creativity,3,5,9.9,attribute
+Creativity,4,11,22.4,attribute
+Creativity,5,33,29.6,attribute
+Creativity,6,51,33.7,attribute
+Detail-orientation,1,0,1.9,attribute
+Detail-orientation,2,2,4.4,attribute
+Detail-orientation,3,4,12.3,attribute
+Detail-orientation,4,17,21,attribute
+Detail-orientation,5,34,27.9,attribute
+Detail-orientation,6,44,32.4,attribute
+Flexibility/adaptability,1,1,1.6,attribute
+Flexibility/adaptability,2,1,3.5,attribute
+Flexibility/adaptability,3,4,11.1,attribute
+Flexibility/adaptability,4,15,20.6,attribute
+Flexibility/adaptability,5,37,31.2,attribute
+Flexibility/adaptability,6,42,31.9,attribute
+Initiative,1,0,1.8,attribute
+Initiative,2,1,5.3,attribute
+Initiative,3,7,12.4,attribute
+Initiative,4,17,20.5,attribute
+Initiative,5,33,28.8,attribute
+Initiative,6,43,31.2,attribute
+Leadership,1,1,3.1,attribute
+Leadership,2,2,6.5,attribute
+Leadership,3,5,15.8,attribute
+Leadership,4,15,22.2,attribute
+Leadership,5,33,25.5,attribute
+Leadership,6,44,26.9,attribute
+Tactfulness,1,2,2.3,attribute
+Tactfulness,2,2,6.3,attribute
+Tactfulness,3,5,14.1,attribute
+Tactfulness,4,15,22,attribute
+Tactfulness,5,37,28.6,attribute
+Tactfulness,6,40,26.7,attribute
+Willingness to learn,1,1,1.2,attribute
+Willingness to learn,2,1,2.3,attribute
+Willingness to learn,3,5,6.6,attribute
+Willingness to learn,4,11,16.8,attribute
+Willingness to learn,5,35,29.9,attribute
+Willingness to learn,6,48,43.1,attribute
+Work ethic,1,0,2.3,attribute
+Work ethic,2,2,5.8,attribute
+Work ethic,3,4,9.2,attribute
+Work ethic,4,11,18.9,attribute
+Work ethic,5,36,29.7,attribute
+Work ethic,6,48,34.1,attribute
+Teamwork,1,0,2,attribute
+Teamwork,2,2,2.7,attribute
+Teamwork,3,3,7,attribute
+Teamwork,4,12,18.3,attribute
+Teamwork,5,35,31.3,attribute
+Teamwork,6,48,38.7,attribute
